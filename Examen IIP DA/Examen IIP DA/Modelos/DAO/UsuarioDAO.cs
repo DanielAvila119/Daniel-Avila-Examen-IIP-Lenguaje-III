@@ -54,7 +54,7 @@ namespace Examen_IIP_DA.Modelos.DAO
                 comando.CommandText = sql.ToString();
                 comando.Parameters.Add("@Nombre", SqlDbType.NVarChar, 80).Value = user.Nombre;
                 comando.Parameters.Add("@Email", SqlDbType.NVarChar, 50).Value = user.Email;
-                comando.Parameters.Add("@Clave", SqlDbType.NVarChar, 50).Value = (user.Clave);
+                comando.Parameters.Add("@Clave", SqlDbType.NVarChar, 50).Value = EncriptarClave(user.Clave);
                 comando.ExecuteNonQuery();
                 MiExamenConexion.Close();
                 return true;
