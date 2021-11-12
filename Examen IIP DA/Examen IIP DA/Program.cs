@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Examen_IIP_DA.Vistas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Examen_IIP_DA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LoginView());
         }
     }
 }
