@@ -63,6 +63,7 @@ namespace Examen_IIP_DA.Vistas
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(203, 20);
             this.EmailTextBox.TabIndex = 14;
+            this.EmailTextBox.Text = "danielavila@gmail.com";
             // 
             // label2
             // 
@@ -79,6 +80,7 @@ namespace Examen_IIP_DA.Vistas
             this.ClaveTextBox.Name = "ClaveTextBox";
             this.ClaveTextBox.Size = new System.Drawing.Size(203, 20);
             this.ClaveTextBox.TabIndex = 16;
+            this.ClaveTextBox.Text = "1234";
             // 
             // AceptarButton
             // 

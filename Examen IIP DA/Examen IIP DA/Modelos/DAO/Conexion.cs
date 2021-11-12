@@ -10,6 +10,6 @@ namespace Examen_IIP_DA.Modelos.DAO
 {
     public class Conexion
     {
-        protected SqlConnection MiConexion = new SqlConnection(ConfigurationManager.ConnectionStrings["ExamenConexion"].ConnectionString);
+        protected SqlConnection MiExamenConexion = new SqlConnection(ConfigurationManager.ConnectionStrings["ExamenConexion"].ConnectionString);
     }
 }
