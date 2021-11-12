@@ -60,10 +60,6 @@
     <Compile Include="Vistas\LoginView.Designer.cs">
       <DependentUpon>LoginView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\MenuView.cs" />
-    <Compile Include="Vistas\MenuView.Designer.cs">
-      <DependentUpon>MenuView.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
